@@ -1,37 +1,62 @@
-// small helpers only
+// script.js
+// print + code site helpers
 
-const byId = (id) => document.getElementById(id);
+(function () {
+  // year in footer
+  const yearEl = document.getElementById("year");
+  if (yearEl) yearEl.textContent = String(new Date().getFullYear());
 
-(function setFooterYear() {
-  const y = byId("year");
-  if (y) y.textContent = String(new Date().getFullYear());
-})();
+  // last updated (browser date; if you want manual, replace with a string)
+  const lastUpdatedEl = document.getElementById("lastUpdated");
+  if (lastUpdatedEl) {
+    const d = new Date();
+    const opts = { year: "numeric", month: "short", day: "2-digit" };
+    lastUpdatedEl.textContent = d.toLocaleDateString(undefined, opts).toLowerCase();
+  }
 
-(function setLastUpdated() {
-  const el = byId("lastUpdated");
-  if (!el) return;
-  // local-friendly; you can hardcode a date later if you prefer
-  el.textContent = new Date().toLocaleDateString(undefined, {
-    year: "numeric",
-    month: "short",
-    day: "2-digit",
-  });
-})();
-
-(function copyLinkButtons() {
-  const buttons = document.querySelectorAll("[data-copy]");
-  buttons.forEach((btn) => {
+  // copy link buttons
+  const btns = document.querySelectorAll("[data-copy]");
+  btns.forEach((btn) => {
     btn.addEventListener("click", async () => {
-      const hash = btn.getAttribute("data-copy");
-      const url = `${window.location.origin}${window.location.pathname}${hash}`;
+      const target = btn.getAttribute("data-copy");
+      if (!target) return;
+
+      const url = new URL(window.location.href);
+      url.hash = target;
+
       try {
-        await navigator.clipboard.writeText(url);
+        await navigator.clipboard.writeText(url.toString());
+        const original = btn.textContent;
         btn.textContent = "copied!";
-        setTimeout(() => (btn.textContent = "copy link"), 900);
+        btn.classList.add("copied");
+        setTimeout(() => {
+          btn.textContent = original;
+          btn.classList.remove("copied");
+        }, 900);
       } catch (e) {
-        // fallback if clipboard blocked
-        window.location.hash = hash;
+        // fallback for older browsers / denied clipboard
+        try {
+          const temp = document.createElement("input");
+          temp.value = url.toString();
+          document.body.appendChild(temp);
+          temp.select();
+          document.execCommand("copy");
+          document.body.removeChild(temp);
+
+          const original = btn.textContent;
+          btn.textContent = "copied!";
+          btn.classList.add("copied");
+          setTimeout(() => {
+            btn.textContent = original;
+            btn.classList.remove("copied");
+          }, 900);
+        } catch (err) {
+          const original = btn.textContent;
+          btn.textContent = "copy failed";
+          setTimeout(() => (btn.textContent = original), 900);
+        }
       }
     });
   });
 })();
+
