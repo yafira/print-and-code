@@ -1,422 +1,525 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Print + Code</title>
+    <meta
+      name="description"
+      content="Print + Code documentation: riso animation, design systems, machine drawing, and experimental publications."
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
 
-<head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Print + Code</title>
-  <meta name="description"
-    content="Print + Code documentation: riso animation, design systems, machine drawing, and experimental publications." />
-  <link rel="stylesheet" href="styles.css" />
-</head>
-
-<body>
-  <header class="header">
-    <div class="container">
-      <div class="header-inner">
-        <div class="brand">
-          <div class="brand-mark">✿</div>
-          <div>
-            <div class="brand-title">Yafira Martinez</div>
-            <div class="brand-subtitle">print + code | fall 2025</div>
-          </div>
-        </div>
-
-        <nav class="nav">
-          <a href="#riso-animation">riso</a>
-          <a href="#design-system">design</a>
-          <a href="#machine-drawing">plotter</a>
-          <a href="#experimental-publications">pubs</a>
-        </nav>
-      </div>
-    </div>
-  </header>
-
-  <main>
-    <section class="hero">
+  <body>
+    <header class="header">
       <div class="container">
-        <h1>print.code( ); </h1>
-        <p class="lede">
-      A documentation hub for my Print & Code work—an exploration of computational craft, where ink, paper, and algorithms are
-      integrated into a single workflow. This space documents projects, process traces, scans, datasets, and source code,
-      tracing how images are generated, materialized, and iterated across digital and physical contexts.
-        </p>
-
-        <div class="pills">
-          <span class="pill">print + plot</span>
-          <span class="pill">code as system</span>
-          <span class="pill">computational craft</span>
-        </div>
-
-        <div class="cta-group">
-          <a class="btn" href="#riso-animation">start at riso animation</a>
-          <a class="btn btn-ghost" href="#experimental-publications">jump to publications</a>
-        </div>
-      </div>
-    </section>
-
-    <!-- RISO ANIMATION -->
-    <section id="riso-animation" class="section">
-      <div class="container">
-        <div class="section-header">
-          <h2>riso animation</h2>
-          <p class="muted">print as time-based system · animation translated into physical frames</p>
-        </div>
-
-        <article class="project" id="sailor-moon-riso">
-          <div class="project-header">
+        <div class="header-inner">
+          <div class="brand">
+            <div class="brand-mark">✿</div>
             <div>
-              <h3>sailor moon inspired riso animation</h3>
-              <p class="project-meta">[riso] frame sequence · scan → loop · printer: frida</p>
+              <div class="brand-title">Yafira Martinez</div>
+              <div class="brand-subtitle">print + code | fall 2025</div>
             </div>
-            <button class="copy-btn" data-copy="#sailor-moon-riso">copy link</button>
           </div>
 
-          <div class="project-body">
-            <div class="gallery">
-              <div class="gallery-item">
-                <img src="assets/animation/printer.png" alt="riso printer frida photo" loading="lazy" />
-                <div class="gallery-caption">printer: frida</div>
-              </div>
+          <nav class="nav">
+            <a href="#riso-animation">riso</a>
+            <a href="#design-system">design</a>
+            <a href="#machine-drawing">plotter</a>
+            <a href="#experimental-publications">pubs</a>
+          </nav>
+        </div>
+      </div>
+    </header>
 
-              <div class="gallery-pair">
+    <main>
+      <section class="hero">
+        <div class="container">
+          <h1>print.code( );</h1>
+          <p class="lede">
+            A documentation hub for my Print & Code work—an exploration of
+            computational craft, where ink, paper, and algorithms are integrated
+            into a single workflow. This space documents projects, process
+            traces, scans, datasets, and source code, tracing how images are
+            generated, materialized, and iterated across digital and physical
+            contexts.
+          </p>
+
+          <div class="pills">
+            <span class="pill">print + plot</span>
+            <span class="pill">code as system</span>
+            <span class="pill">computational craft</span>
+          </div>
+
+          <div class="cta-group">
+            <a class="btn" href="#riso-animation">start at riso animation</a>
+            <a class="btn btn-ghost" href="#experimental-publications"
+              >jump to publications</a
+            >
+          </div>
+        </div>
+      </section>
+
+      <!-- RISO ANIMATION -->
+      <section id="riso-animation" class="section">
+        <div class="container">
+          <div class="section-header">
+            <h2>riso animation</h2>
+            <p class="muted">
+              print as time-based system · animation translated into physical
+              frames
+            </p>
+          </div>
+
+          <article class="project" id="sailor-moon-riso">
+            <div class="project-header">
+              <div>
+                <h3>sailor moon inspired riso animation</h3>
+                <p class="project-meta">
+                  [riso] frame sequence · scan → loop · printer: frida
+                </p>
+              </div>
+              <button class="copy-btn" data-copy="#sailor-moon-riso">
+                copy link
+              </button>
+            </div>
+
+            <div class="project-body">
+              <div class="gallery">
                 <div class="gallery-item">
-                  <img src="assets/animation/p5.gif" alt="p5 digital animation" />
-                  <div class="gallery-caption">p5 sketch (digital)</div>
+                  <img
+                    src="assets/animation/printer.png"
+                    alt="riso printer frida photo"
+                    loading="lazy"
+                  />
+                  <div class="gallery-caption">printer: frida</div>
                 </div>
-
-                <div class="gallery-item">
-                  <img src="assets/animation/moonstar.gif" alt="moonstar animation" />
-                  <div class="gallery-caption">moonstar animation</div>
-                </div>
-              </div>
-
-              <div class="gallery-item featured">
-                <img src="assets/animation/scans.png" alt="scanned frames / contact sheet for riso animation" />
-                <div class="gallery-caption">scans / contact sheets</div>
-              </div>
 
                 <div class="gallery-pair">
                   <div class="gallery-item">
-                    <img src="assets/animation/1.png" alt="riso print frame 1" loading="lazy" />
+                    <img
+                      src="assets/animation/p5.gif"
+                      alt="p5 digital animation"
+                    />
+                    <div class="gallery-caption">p5 sketch (digital)</div>
+                  </div>
+
+                  <div class="gallery-item">
+                    <img
+                      src="assets/animation/moonstar.gif"
+                      alt="moonstar animation"
+                    />
+                    <div class="gallery-caption">moonstar animation</div>
+                  </div>
+                </div>
+
+                <div class="gallery-item featured">
+                  <img
+                    src="assets/animation/scans.png"
+                    alt="scanned frames / contact sheet for riso animation"
+                  />
+                  <div class="gallery-caption">scans / contact sheets</div>
+                </div>
+
+                <div class="gallery-pair">
+                  <div class="gallery-item">
+                    <img
+                      src="assets/animation/1.png"
+                      alt="riso print frame 1"
+                      loading="lazy"
+                    />
                     <div class="gallery-caption">frame 1</div>
                   </div>
-                
+
                   <div class="gallery-item">
-                    <img src="assets/animation/2.png" alt="riso print frame 2" loading="lazy" />
+                    <img
+                      src="assets/animation/2.png"
+                      alt="riso print frame 2"
+                      loading="lazy"
+                    />
                     <div class="gallery-caption">frame 2</div>
                   </div>
                 </div>
-
-            
-            </div>
-
-            <div class="content">
-              <p>
-                For this project I created a Sailor Moon inspired risograph animation. Sailor Moon was my favorite anime
-                growing up, so it felt natural to return to it as a source of visual language and nostalgia. The main
-                element
-                I animated was the star symbol, which rotates as the central motion. At first I experimented with bold,
-                bright
-                colors, but once I printed it I realized they came out much harsher than expected. That was a surprise,
-                something
-                that looked more soft and luminous on screen appeared almost overwhelming in print. This led me to make
-                a second
-                version with pastel tones.
-              </p>
-
-              <p>
-                I like that the adjusted yellow and gold almost resemble a stamped texture, which gives the piece a
-                tactile
-                quality. Another detail I especially enjoy is the dithering effect produced by the risograph process.
-                The
-                halftone dots and gradients create a textured look that makes the animation feel layered and physical,
-                giving
-                it a softness that could not be fully replicated digitally. It also connects back to the retro anime and
-                manga
-                aesthetic of Sailor Moon itself, which often used screen tones and grainy textures to create atmosphere.
-              </p>
-
-              <h4>Digital vs Analogue Workflows</h4>
-              <p>
-                The production process highlighted the difference between digital and analogue workflows. In my p5.js
-                sketch,
-                the animation feels smoother and more dynamic because the code generates movement continuously.
-                Translating
-                that into a frame-based risograph sequence required me to limit the motion to discrete stills. I ended
-                up
-                producing many frames, but paradoxically the effect was less animated than my original sketch. It made
-                me think
-                more carefully about how few frames are needed to suggest motion effectively, and where excess becomes
-                static.
-              </p>
-
-              <h4>Glitch and Noise</h4>
-              <p>
-                The process also connected to our readings on glitch and noise. In the translation from screen to print
-                and back
-                to screen (digital → analog → digital), unexpected forms of noise appeared. Color shifts, uneven
-                textures,
-                dithering, and slight misalignments worked as glitches that added character. Instead of being errors,
-                these
-                became aesthetic features, reminding me of how compression artifacts or VHS static, once considered
-                flaws, now
-                read as nostalgic or stylistic choices. I was surprised by how much I welcomed these "imperfections."
-                They gave
-                the animation a tactile richness that my p5 version lacked.
-              </p>
-
-              <div class="callout">
-                <p>
-                  <strong>The Actual Process:</strong> The process moved through several stages across both digital and
-                  analog
-                  tools. I first developed the sketch in p5.js, testing out colors, movement, and frame counts in code.
-                  Once I had
-                  the star animation working digitally, I separated the frames and prepared them for print at the riso
-                  lab. Printing
-                  was its own experiment—colors shifted, layering created unexpected textures, and the dithering
-                  patterns emerged
-                  through the risograph's limitations.
-                </p>
               </div>
 
-              <p>
-                After printing, I scanned the individual frames back into the computer and compiled them in Adobe
-                Photoshop, where
-                I built contact sheets to organize the sequence. From there, I assembled the frames into an animation,
-                layering them
-                back together into a moving loop. Each step introduced its own character: coding produced smooth
-                continuous motion,
-                printing introduced tactile noise and color shifts, scanning translated those textures into pixels, and
-                finally
-                Photoshop restructured the sequence into a cohesive animation.
-              </p>
+              <div class="content">
+                <p>
+                  For this project I created a Sailor Moon inspired risograph
+                  animation. Sailor Moon was my favorite anime growing up, so it
+                  felt natural to return to it as a source of visual language
+                  and nostalgia. The main element I animated was the star
+                  symbol, which rotates as the central motion. At first I
+                  experimented with bold, bright colors, but once I printed it I
+                  realized they came out much harsher than expected. That was a
+                  surprise, something that looked more soft and luminous on
+                  screen appeared almost overwhelming in print. This led me to
+                  make a second version with pastel tones.
+                </p>
+
+                <p>
+                  I like that the adjusted yellow and gold almost resemble a
+                  stamped texture, which gives the piece a tactile quality.
+                  Another detail I especially enjoy is the dithering effect
+                  produced by the risograph process. The halftone dots and
+                  gradients create a textured look that makes the animation feel
+                  layered and physical, giving it a softness that could not be
+                  fully replicated digitally. It also connects back to the retro
+                  anime and manga aesthetic of Sailor Moon itself, which often
+                  used screen tones and grainy textures to create atmosphere.
+                </p>
+
+                <h4>Digital vs Analogue Workflows</h4>
+                <p>
+                  The production process highlighted the difference between
+                  digital and analogue workflows. In my p5.js sketch, the
+                  animation feels smoother and more dynamic because the code
+                  generates movement continuously. Translating that into a
+                  frame-based risograph sequence required me to limit the motion
+                  to discrete stills. I ended up producing many frames, but
+                  paradoxically the effect was less animated than my original
+                  sketch. It made me think more carefully about how few frames
+                  are needed to suggest motion effectively, and where excess
+                  becomes static.
+                </p>
+
+                <h4>Glitch and Noise</h4>
+                <p>
+                  The process also connected to our readings on glitch and
+                  noise. In the translation from screen to print and back to
+                  screen (digital → analog → digital), unexpected forms of noise
+                  appeared. Color shifts, uneven textures, dithering, and slight
+                  misalignments worked as glitches that added character. Instead
+                  of being errors, these became aesthetic features, reminding me
+                  of how compression artifacts or VHS static, once considered
+                  flaws, now read as nostalgic or stylistic choices. I was
+                  surprised by how much I welcomed these "imperfections." They
+                  gave the animation a tactile richness that my p5 version
+                  lacked.
+                </p>
+
+                <div class="callout">
+                  <p>
+                    <strong>The Actual Process:</strong> The process moved
+                    through several stages across both digital and analog tools.
+                    I first developed the sketch in p5.js, testing out colors,
+                    movement, and frame counts in code. Once I had the star
+                    animation working digitally, I separated the frames and
+                    prepared them for print at the riso lab. Printing was its
+                    own experiment—colors shifted, layering created unexpected
+                    textures, and the dithering patterns emerged through the
+                    risograph's limitations.
+                  </p>
+                </div>
+
+                <p>
+                  After printing, I scanned the individual frames back into the
+                  computer and compiled them in Adobe Photoshop, where I built
+                  contact sheets to organize the sequence. From there, I
+                  assembled the frames into an animation, layering them back
+                  together into a moving loop. Each step introduced its own
+                  character: coding produced smooth continuous motion, printing
+                  introduced tactile noise and color shifts, scanning translated
+                  those textures into pixels, and finally Photoshop restructured
+                  the sequence into a cohesive animation.
+                </p>
 
                 <div class="gallery-item">
-                  <img src="assets/animation/recording.gif" alt="final loop recording gif" loading="lazy" />
+                  <img
+                    src="assets/animation/recording.gif"
+                    alt="final loop recording gif"
+                    loading="lazy"
+                  />
                   <div class="gallery-caption">final loop</div>
                 </div>
 
-              <h4>Reflection</h4>
-              <p>
-                I would probably recreate this animation again and try my best to cut the frames so it won't have such a
-                wobbly
-                effect. Nonetheless I am content with the riso texture it brings to life.
-              </p>
+                <h4>Reflection</h4>
+                <p>
+                  I would probably recreate this animation again and try my best
+                  to cut the frames so it won't have such a wobbly effect.
+                  Nonetheless I am content with the riso texture it brings to
+                  life.
+                </p>
 
-              <p>
-                Reflecting on this project, I see glitch and noise not as disruptions but as collaborators in the
-                process. They make
-                the work feel less polished and more human, carrying traces of the materials and machines involved. That
-                tension between
-                my controlled digital sketch and the noisy analogue print revealed how animation can live across
-                mediums, each step
-                introducing its own unexpected variations. Ultimately, this project reminded me that part of animating
-                is allowing the
-                process to transform the image, even when it veers away from what I initially imagined.
-              </p>
+                <p>
+                  Reflecting on this project, I see glitch and noise not as
+                  disruptions but as collaborators in the process. They make the
+                  work feel less polished and more human, carrying traces of the
+                  materials and machines involved. That tension between my
+                  controlled digital sketch and the noisy analogue print
+                  revealed how animation can live across mediums, each step
+                  introducing its own unexpected variations. Ultimately, this
+                  project reminded me that part of animating is allowing the
+                  process to transform the image, even when it veers away from
+                  what I initially imagined.
+                </p>
 
-              <div class="gallery-item">
-                <img src="assets/animation/sailormoon.gif" alt="sailor moon" loading="lazy" />
+                <div class="gallery-item">
+                  <img
+                    src="assets/animation/sailormoon.gif"
+                    alt="sailor moon"
+                    loading="lazy"
+                  />
+                </div>
+
+                <div class="link-grid">
+                  <a
+                    class="link-btn"
+                    href="https://editor.p5js.org/electrocute/sketches/vO7Of7eFc"
+                    target="_blank"
+                    rel="noopener"
+                    >p5 sketch</a
+                  >
+                </div>
               </div>
-
-              <div class="link-grid">
-                <a class="link-btn" href="https://editor.p5js.org/electrocute/sketches/vO7Of7eFc" target="_blank"
-                  rel="noopener">p5 sketch</a>
-              </div>
             </div>
-          </div>
-        </article>
-      </div>
-    </section>
-
-<!-- DESIGN SYSTEM -->
-<section id="design-system" class="section">
-  <div class="container">
-    <div class="section-header">
-      <h2>design system</h2>
-      <p class="muted">code as layout logic · strict hierarchy · data-driven composition</p>
-    </div>
-
-    <article class="project" id="lost-circuits">
-      <div class="project-header">
-        <div>
-          <h3>the department of lost circuits</h3>
-          <p class="project-meta">[p5] generative postage series · riso-ready halftone plates</p>
+          </article>
         </div>
-        <button class="copy-btn" data-copy="#lost-circuits">copy link</button>
-      </div>
+      </section>
 
-      <div class="project-body">
-        <div class="gallery">
-          <div class="gallery-item featured">
-          <img src="assets/ds/stamp2.png" alt="alternate stamp detail" loading="lazy" />
-          <figcaption class="muted">alternate stamp detail</figcaption>
-          </div>
-
-          <div class="gallery-item">
-            <img src="assets/ds/stamps.png" alt="generated stamp sheet preview" />
-            <div class="gallery-caption">stamp sheet</div>
-          </div>
-
-          <div class="gallery-quad">
-            <div class="gallery-item">
-              <img src="assets/ds/1.png" alt="stamp variation 1" loading="lazy" />
-              <div class="gallery-caption">variation 1</div>
-            </div>
-
-            <div class="gallery-item">
-              <img src="assets/ds/2.png" alt="stamp variation 2" loading="lazy" />
-              <div class="gallery-caption">variation 2</div>
-            </div>
-
-          </div>
-
-          <div class="gallery-item">
-            <img src="assets/ds/5.png" alt="stamp variation 5" loading="lazy" />
-            <div class="gallery-caption">variation 5</div>
-          </div>
-        </div>
-
-        <div class="content">
-          <figure class="inline-figure">
-              <img src="assets/ds/stamp.png" alt="single stamp detail" loading="lazy" />
-              <figcaption class="muted">single stamp detail</figcaption>
-          </figure>
-          <p>
-            Over the past few weeks, I've been developing <em>The Department of Lost Circuits</em>, a generative postage
-            series that reimagines obsolete electronics as collectible design artifacts. Each stamp in the series
-            represents
-            a different historical device, from Braun radios and Sharp pocket computers to the Nintendo Game Boy Sewing
-            Machine. The stamps are not only visual tributes but also data-driven compositions that weave together
-            information about the object's design, production era, and technological lineage.
-          </p>
-
-          <h4>Why Stamps?</h4>
-            <figure class="inline-figure">
-              <img src="assets/ds/inspiration.png" alt="inspiration references" loading="lazy" />
-              <figcaption class="muted">inspiration + references</figcaption>
-            </figure>
-
-          <p>
-            Postage stamps are tiny monuments. They preserve histories that nations decide are worth circulating:
-            people,
-            landmarks, inventions. I chose stamps because they feel both antique and ceremonial, a perfect match for
-            technology
-            that has slipped from the present. They are archival but personal, handled by many, collected by few.
-            Turning obsolete
-            devices into stamps restores a sense of dignity to objects often discarded without a second thought.
-          </p>
-
-          <h4>Data as Design Material</h4>
-          <p>
-            Each stamp is generated in code using p5.js, combining algorithmic layouts with historical metadata. The
-            layout system
-            establishes a strict visual hierarchy: product image at center, year and manufacturer below, rarity stars in
-            the upper
-            corner, and price or value markers framed in minimalist black circles. These visual anchors create a rhythm
-            across the
-            sheet, referencing both typographic order and the archival precision of catalog systems.
-          </p>
-
-          <figure class="inline-figure">
-            <img src="assets/ds/data.png" alt="dataset mapping image" loading="lazy" />
-            <figcaption class="muted">dataset structure + mapping</figcaption>
-          </figure>
-
-          <p class="muted">
-            The dataset now includes <strong>40 discontinued devices</strong> spanning 1961–2016. A new field,
-            <strong>material_components</strong>, documents each device's "material afterlife"—what these devices become
-            when
-            discarded: cathode ray tubes and leaded glass, lithium polymer batteries and magnetic tape oxide,
-            polycarbonate shells
-            and copper circuit traces.
-          </p>
-
-          <h4>Creating the Border System</h4>
-          <p>
-            A key recent addition has been the border system. Previously, every stamp shared a simple perforated
-            outline. Now, each
-            stamp randomly generates one of several unique border styles, including perforated, dotted, zigzag, and
-            scalloped frames.
-            The scalloped style, inspired by traditional postage silhouettes, adds a tactile sense of authenticity and
-            rhythm to the
-            grid. The generative variation keeps the sheet visually dynamic, like a philatelic field of tiny
-            architectures.
-          </p>
-
-
-          <p>
-            I also integrated material metadata into the composition. Each object's CSV entry now includes its
-            material_components.
-            These materials are represented as small geometric glyphs positioned beneath the image. The system parses
-            the text
-            automatically, identifying material keywords and rendering a set of icons that mirror industrial design
-            language.
-          </p>
-
-
-          <div class="callout">
-            <p>
-              <strong>Milestone:</strong> Preparing for riso printing. I added a toggle to convert RGB previews into
-              two-color
-              halftone layers (black + teal, later changed to baby blue + fluorescent pink), optimized for risograph
-              output. Where
-              they overlap, a surprising purple emerges—a happy accident that reinforces the theme.
+      <!-- DESIGN SYSTEM -->
+      <section id="design-system" class="section">
+        <div class="container">
+          <div class="section-header">
+            <h2>design system</h2>
+            <p class="muted">
+              code as layout logic · strict hierarchy · data-driven composition
             </p>
-
-            <figure class="inline-figure">
-              <img src="assets/ds/risoink.png" alt="riso ink tests" loading="lazy" />
-              <figcaption class="muted">riso ink tests</figcaption>
-            </figure>
-
-            <figure class="inline-figure">
-              <img src="assets/ds/risoink2.png" alt="riso ink tests alternate" loading="lazy" />
-              <figcaption class="muted">riso ink tests (alt)</figcaption>
-            </figure>
           </div>
 
-          <details>
-            <summary>Bayer Halftone System</summary>
-            <div class="details-content">
-              <p>
-                As part of preparing The Department of Lost Circuits for Risograph printing, I've been working with
-                halftone
-                dithering to convert digital images into printable ink patterns. The method I'm using is based on a
-                <strong>Bayer
-                  matrix</strong>, a small repeating grid that decides how dots of ink are distributed to represent
-                different shades
-                of gray.
-              </p>
+          <article class="project" id="lost-circuits">
+            <div class="project-header">
+              <div>
+                <h3>the department of lost circuits</h3>
+                <p class="project-meta">
+                  [p5] generative postage series · riso-ready halftone plates
+                </p>
+              </div>
+              <button class="copy-btn" data-copy="#lost-circuits">
+                copy link
+              </button>
+            </div>
 
-              <h4>What a Bayer Matrix Does</h4>
-              <p>
-                When a photograph is printed in a single color of ink, it can't rely on RGB values. Instead, it creates
-                the illusion
-                of tone by varying dot density. The Bayer matrix helps organize this process by assigning a threshold to
-                each pixel.
-              </p>
+            <div class="project-body">
+              <div class="gallery">
+                <div class="gallery-item featured">
+                  <img
+                    src="assets/ds/stamp2.png"
+                    alt="alternate stamp detail"
+                    loading="lazy"
+                  />
+                  <figcaption class="muted">alternate stamp detail</figcaption>
+                </div>
 
-              <p>
-                Smaller matrices (like 4×4) produce chunkier, high-contrast textures, while larger ones (like 8×8)
-                result in
-                smoother gradients. The choice affects the print's personality: 4×4 is bold and graphic, great for
-                low-detail images
-                or strong contrast; 8×8 gives smoother tones, ideal for photographs and subtle shading.
-              </p>
+                <div class="gallery-item">
+                  <img
+                    src="assets/ds/stamps.png"
+                    alt="generated stamp sheet preview"
+                  />
+                  <div class="gallery-caption">stamp sheet</div>
+                </div>
 
-              <h4>Why It Works Well for RISO</h4>
-              <p>
-                The Risograph is a mechanical stencil printer, so it loves predictable dot patterns. Ordered dithering
-                produces clean,
-                geometric textures that don't blur or misalign easily. Because this project combines industrial imagery
-                and archival
-                layouts, the Bayer matrix fits conceptually too—it bridges digital precision with the analog
-                imperfections of RISO
-                printing, where each dot is both mechanical and expressive.
-              </p>
+                <div class="gallery-quad">
+                  <div class="gallery-item">
+                    <img
+                      src="assets/ds/1.png"
+                      alt="stamp variation 1"
+                      loading="lazy"
+                    />
+                    <div class="gallery-caption">variation 1</div>
+                  </div>
 
-              <pre><code>// TEAL PLATE (RISO): auto-levels → Bayer dither → place on layer
+                  <div class="gallery-item">
+                    <img
+                      src="assets/ds/2.png"
+                      alt="stamp variation 2"
+                      loading="lazy"
+                    />
+                    <div class="gallery-caption">variation 2</div>
+                  </div>
+                </div>
+
+                <div class="gallery-item">
+                  <img
+                    src="assets/ds/5.png"
+                    alt="stamp variation 5"
+                    loading="lazy"
+                  />
+                  <div class="gallery-caption">variation 5</div>
+                </div>
+              </div>
+
+              <div class="content">
+                <figure class="inline-figure">
+                  <img
+                    src="assets/ds/stamp.png"
+                    alt="single stamp detail"
+                    loading="lazy"
+                  />
+                  <figcaption class="muted">single stamp detail</figcaption>
+                </figure>
+                <p>
+                  Over the past few weeks, I've been developing
+                  <em>The Department of Lost Circuits</em>, a generative postage
+                  series that reimagines obsolete electronics as collectible
+                  design artifacts. Each stamp in the series represents a
+                  different historical device, from Braun radios and Sharp
+                  pocket computers to the Nintendo Game Boy Sewing Machine. The
+                  stamps are not only visual tributes but also data-driven
+                  compositions that weave together information about the
+                  object's design, production era, and technological lineage.
+                </p>
+
+                <h4>Why Stamps?</h4>
+                <figure class="inline-figure">
+                  <img
+                    src="assets/ds/inspiration.png"
+                    alt="inspiration references"
+                    loading="lazy"
+                  />
+                  <figcaption class="muted">
+                    inspiration + references
+                  </figcaption>
+                </figure>
+
+                <p>
+                  Postage stamps are tiny monuments. They preserve histories
+                  that nations decide are worth circulating: people, landmarks,
+                  inventions. I chose stamps because they feel both antique and
+                  ceremonial, a perfect match for technology that has slipped
+                  from the present. They are archival but personal, handled by
+                  many, collected by few. Turning obsolete devices into stamps
+                  restores a sense of dignity to objects often discarded without
+                  a second thought.
+                </p>
+
+                <h4>Data as Design Material</h4>
+                <p>
+                  Each stamp is generated in code using p5.js, combining
+                  algorithmic layouts with historical metadata. The layout
+                  system establishes a strict visual hierarchy: product image at
+                  center, year and manufacturer below, rarity stars in the upper
+                  corner, and price or value markers framed in minimalist black
+                  circles. These visual anchors create a rhythm across the
+                  sheet, referencing both typographic order and the archival
+                  precision of catalog systems.
+                </p>
+
+                <figure class="inline-figure">
+                  <img
+                    src="assets/ds/data.png"
+                    alt="dataset mapping image"
+                    loading="lazy"
+                  />
+                  <figcaption class="muted">
+                    dataset structure + mapping
+                  </figcaption>
+                </figure>
+
+                <p class="muted">
+                  The dataset now includes
+                  <strong>40 discontinued devices</strong> spanning 1961–2016. A
+                  new field, <strong>material_components</strong>, documents
+                  each device's "material afterlife"—what these devices become
+                  when discarded: cathode ray tubes and leaded glass, lithium
+                  polymer batteries and magnetic tape oxide, polycarbonate
+                  shells and copper circuit traces.
+                </p>
+
+                <h4>Creating the Border System</h4>
+                <p>
+                  A key recent addition has been the border system. Previously,
+                  every stamp shared a simple perforated outline. Now, each
+                  stamp randomly generates one of several unique border styles,
+                  including perforated, dotted, zigzag, and scalloped frames.
+                  The scalloped style, inspired by traditional postage
+                  silhouettes, adds a tactile sense of authenticity and rhythm
+                  to the grid. The generative variation keeps the sheet visually
+                  dynamic, like a philatelic field of tiny architectures.
+                </p>
+
+                <p>
+                  I also integrated material metadata into the composition. Each
+                  object's CSV entry now includes its material_components. These
+                  materials are represented as small geometric glyphs positioned
+                  beneath the image. The system parses the text automatically,
+                  identifying material keywords and rendering a set of icons
+                  that mirror industrial design language.
+                </p>
+
+                <div class="callout">
+                  <p>
+                    <strong>Milestone:</strong> Preparing for riso printing. I
+                    added a toggle to convert RGB previews into two-color
+                    halftone layers (black + teal, later changed to baby blue +
+                    fluorescent pink), optimized for risograph output. Where
+                    they overlap, a surprising purple emerges—a happy accident
+                    that reinforces the theme.
+                  </p>
+
+                  <figure class="inline-figure">
+                    <img
+                      src="assets/ds/risoink.png"
+                      alt="riso ink tests"
+                      loading="lazy"
+                    />
+                    <figcaption class="muted">riso ink tests</figcaption>
+                  </figure>
+
+                  <figure class="inline-figure">
+                    <img
+                      src="assets/ds/risoink2.png"
+                      alt="riso ink tests alternate"
+                      loading="lazy"
+                    />
+                    <figcaption class="muted">riso ink tests (alt)</figcaption>
+                  </figure>
+                </div>
+
+                <details>
+                  <summary>Bayer Halftone System</summary>
+                  <div class="details-content">
+                    <p>
+                      As part of preparing The Department of Lost Circuits for
+                      Risograph printing, I've been working with halftone
+                      dithering to convert digital images into printable ink
+                      patterns. The method I'm using is based on a
+                      <strong>Bayer matrix</strong>, a small repeating grid that
+                      decides how dots of ink are distributed to represent
+                      different shades of gray.
+                    </p>
+
+                    <h4>What a Bayer Matrix Does</h4>
+                    <p>
+                      When a photograph is printed in a single color of ink, it
+                      can't rely on RGB values. Instead, it creates the illusion
+                      of tone by varying dot density. The Bayer matrix helps
+                      organize this process by assigning a threshold to each
+                      pixel.
+                    </p>
+
+                    <p>
+                      Smaller matrices (like 4×4) produce chunkier,
+                      high-contrast textures, while larger ones (like 8×8)
+                      result in smoother gradients. The choice affects the
+                      print's personality: 4×4 is bold and graphic, great for
+                      low-detail images or strong contrast; 8×8 gives smoother
+                      tones, ideal for photographs and subtle shading.
+                    </p>
+
+                    <h4>Why It Works Well for RISO</h4>
+                    <p>
+                      The Risograph is a mechanical stencil printer, so it loves
+                      predictable dot patterns. Ordered dithering produces
+                      clean, geometric textures that don't blur or misalign
+                      easily. Because this project combines industrial imagery
+                      and archival layouts, the Bayer matrix fits conceptually
+                      too—it bridges digital precision with the analog
+                      imperfections of RISO printing, where each dot is both
+                      mechanical and expressive.
+                    </p>
+
+                    <pre><code>// TEAL PLATE (RISO): auto-levels → Bayer dither → place on layer
 function drawImageHalftone_toLayer(layer, d, x, y, w, h) {
   const margin = 45;
   const imgX = x + STAMP_INSET + margin;
@@ -453,646 +556,857 @@ function drawImageHalftone_toLayer(layer, d, x, y, w, h) {
 
   layer.image(dithered.get(), cx, cy);
 }</code></pre>
-            </div>
-          </details>
+                  </div>
+                </details>
 
-          <h4>System Implementation with EasyGrid</h4>
-          <p>
-            The system uses <strong>EasyGrid</strong> for layout management, making positioning and spacing systematic.
-            The
-            pseudocode establishes: 3 columns × 5 rows (adjustable), RISO layers (coral for circuits, teal for text),
-            and visual
-            rules using the <code>map()</code> function—circuit density maps to release year, category determines shape
-            (audio =
-            circle, storage = square, display = triangle, computing = hexagon, gaming = pentagon), and discontinued year
-            affects
-            opacity.
-          </p>
-
-            <figure class="inline-figure">
-              <img src="assets/ds/stamps2.png" alt="alternate stamp sheet" loading="lazy" />
-              <div class="gallery-caption">alternate</div>
-            </figure>
-
-          <h4>Where Are These Devices Today?</h4>
-          <p>
-            Many of these objects still exist, just not where we expect. Some are lost inside closets and junk drawers,
-            too important
-            to throw away but too outdated to use. Others are museum artifacts with plaques explaining their
-            once-revolutionary features.
-            A few are collector trophies auctioned online for high prices. Meanwhile, mountains of similar devices are
-            buried in e-waste
-            streams around the world. This spread—from trash to treasure—shows how unevenly we value the past.
-          </p>
-
-          <h4>Reflection</h4>
-          <p>
-            Department of Lost Circuits is becoming both a historical archive and a meditation on obsolescence. By
-            transforming
-            discarded technologies into carefully printed artifacts, the series asks what it means to preserve digital
-            culture in
-            material form and whether code can act as a new kind of conservation tool. Working on this project shifted
-            my attention
-            from objects to their afterlives. Consumer technology does not disappear. It simply becomes invisible.
-          </p>
-
-          <div class="link-grid">
-            <a class="link-btn" href="https://github.com/yafira/department-of-lost-circuits" target="_blank" rel="noopener">code</a>
-            <a class="link-btn" href="https://lost-circuits.netlify.app/" target="_blank" rel="noopener">live demo</a>
-            <a class="link-btn"
-              href="https://docs.google.com/spreadsheets/d/1S-ncNCPUNT8zuqOPZFNq0mbKc3nBu5DurDncP9IntwM/edit?usp=sharing"
-              target="_blank" rel="noopener">dataset (sheet)</a>
-          </div>
-        </div>
-      </div>
-    </article>
-  </div>
-</section>
-
-    <!-- MACHINE DRAWING -->
-    <section id="machine-drawing" class="section">
-      <div class="container">
-        <div class="section-header">
-          <h2>machine drawing</h2>
-          <p class="muted">plotter as collaborator · slow computation · parametric editions</p>
-        </div>
-
-        <article class="project" id="core-memory">
-          <div class="project-header">
-            <div>
-              <h3>magnetic core memory</h3>
-              <p class="project-meta">[plotter] p5 + svg · generative homage to woven circuits</p>
-            </div>
-            <button class="copy-btn" data-copy="#core-memory">copy link</button>
-          </div>
-
-          <div class="project-body">
-            <div class="gallery">
-              <div class="gallery-item">
-                <img src="assets/plot/gallery-plot.jpg" alt="pen plot overview of core memory pattern" />
-                <div class="gallery-caption">gallery-plot.jpg — overview</div>
-              </div>
-              <div class="gallery-quad">
-                <div class="gallery-item">
-                  <img src="assets/plot/1.jpg" alt="plot closeup 1" loading="lazy" />
-                  <div class="gallery-caption">plot detail 1</div>
-                </div>
-
-                <div class="gallery-item">
-                  <img src="assets/plot/2.jpg" alt="plot closeup 2" loading="lazy" />
-                  <div class="gallery-caption">plot detail 2</div>
-                </div>
-
-                <div class="gallery-item">
-                  <img src="assets/plot/3.jpg" alt="plot closeup 3" loading="lazy" />
-                  <div class="gallery-caption">plot detail 3</div>
-                </div>
-
-                <div class="gallery-item">
-                  <img src="assets/plot/4.jpg" alt="plot closeup 4" loading="lazy" />
-                  <div class="gallery-caption">plot detail 4</div>
-                </div>
-              </div>
-
-              <div class="gallery-item">
-                <img src="assets/plot/plots.png" alt="plots overview" loading="lazy" />
-                <div class="gallery-caption">plots overview</div>
-              </div>
-
-              <div class="gallery-item">
-                <img src="assets/plot/quad.png" alt="quad plot detail" loading="lazy" />
-                <div class="gallery-caption">quad.png — quad detail</div>
-              </div>
-            </div>
-
-            <div class="content">
-              <p>
-                This was genuinely my first time using a pen plotter. There was a phase a while ago when I became
-                obsessed with watching
-                plotter drawings online—videos of machines slowly tracing ink, artists plotting geometric patterns with
-                multiple pens, and
-                long, meditative drawing processes. I was tempted to get one for home use, but that phase eventually
-                faded.
-              </p>
-
-              <p>
-                Now it's come back in a much more meaningful way. Seeing what's possible with plotting beyond pure
-                machine drawing has
-                shifted my perspective. Plotters aren't just mechanical tools; they're being used for textile
-                patterning, experimental
-                circuitry, and even edible ink drawings on cookies (which I very much want to try). That realization
-                made me want to
-                explore the plotter as a bridge between design, code, and fabrication.
-              </p>
-
-              <h4>A Brief History of Core Memory</h4>
-              <figure class="inline-figure">
-                <img src="assets/plot/examples.png" alt="historical examples of magnetic core memory" />
-                <figcaption class="muted">
-                  historical examples of magnetic core memory planes and woven circuits
-                </figcaption>
-              </figure>
-
-              <p>
-                I created a generative pattern inspired by <strong>magnetic core memory</strong>, one of the earliest
-                forms of computer
-                memory used from the 1950s through the early 1970s. Core memory consisted of tiny ferrite rings
-                ("cores") woven into a
-                grid of wires, each magnetized in one of two directions to represent a binary 1 or 0. It was both an
-                engineering marvel
-                and a hand-crafted object—the physical fabric of computation before silicon chips.
-              </p>
-
-              <p>
-                Invented in the late 1940s by Jay Forrester at MIT's Whirlwind project, core memory became the standard
-                for computers
-                throughout the 1950s and 60s. It powered machines like the IBM 1401 and the Apollo Guidance Computer.
-                The first computers
-                to fly to the Moon were literally woven by hand.
-              </p>
-
-              <p>
-                What fascinates me most is that these memory planes were often assembled bywomen with
-                  incredible dexterity,
-                threading wires through microscopic rings using fine needles. Each bit of memory was physical, tangible,
-                and placed with
-                care. Core memory was textile computation: computing as weaving, logic as fabric, data as something soft
-                and structured.
-              </p>
-
-              <h4>Pattern & Code</h4>
-              <p>
-                I've always been drawn to circuit art in all its forms—freeform soldering, wire sculptures, experimental
-                PCBs, breadboard
-                chaos. Circuits feel like drawings to me: technical, but deeply poetic. The grid-like weave of core
-                memory sits perfectly
-                at the intersection of textile and technology, structure and softness.
-              </p>
-
-              <p>
-                Using p5.js with the p5.svg renderer, I built a system that generates a stylized "core memory panel,"
-                complete with vertical
-                and horizontal bus lines, crisscross stitches, and subtle imperfections. The pattern went through
-                several iterations, adjusting
-                density, spacing, stroke weight, wire behavior, and randomness until it felt digitally hand-woven rather
-                than mechanically perfect.
-              </p>
-
-              <div class="callout">
+                <h4>System Implementation with EasyGrid</h4>
                 <p>
-                  <strong>Machine Drawing Note:</strong> This drawing is not animated. It is computed once, like a print
-                  pulled from a press.
-                  The code behaves less like a sketch and more like a small drawing machine with adjustable "knobs."
+                  The system uses <strong>EasyGrid</strong> for layout
+                  management, making positioning and spacing systematic. The
+                  pseudocode establishes: 3 columns × 5 rows (adjustable), RISO
+                  layers (coral for circuits, teal for text), and visual rules
+                  using the <code>map()</code> function—circuit density maps to
+                  release year, category determines shape (audio = circle,
+                  storage = square, display = triangle, computing = hexagon,
+                  gaming = pentagon), and discontinued year affects opacity.
+                </p>
+
+                <figure class="inline-figure">
+                  <img
+                    src="assets/ds/stamps2.png"
+                    alt="alternate stamp sheet"
+                    loading="lazy"
+                  />
+                  <div class="gallery-caption">alternate</div>
+                </figure>
+
+                <h4>Where Are These Devices Today?</h4>
+                <p>
+                  Many of these objects still exist, just not where we expect.
+                  Some are lost inside closets and junk drawers, too important
+                  to throw away but too outdated to use. Others are museum
+                  artifacts with plaques explaining their once-revolutionary
+                  features. A few are collector trophies auctioned online for
+                  high prices. Meanwhile, mountains of similar devices are
+                  buried in e-waste streams around the world. This spread—from
+                  trash to treasure—shows how unevenly we value the past.
+                </p>
+
+                <h4>Reflection</h4>
+                <p>
+                  Department of Lost Circuits is becoming both a historical
+                  archive and a meditation on obsolescence. By transforming
+                  discarded technologies into carefully printed artifacts, the
+                  series asks what it means to preserve digital culture in
+                  material form and whether code can act as a new kind of
+                  conservation tool. Working on this project shifted my
+                  attention from objects to their afterlives. Consumer
+                  technology does not disappear. It simply becomes invisible.
+                </p>
+
+                <div class="link-grid">
+                  <a
+                    class="link-btn"
+                    href="https://github.com/yafira/department-of-lost-circuits"
+                    target="_blank"
+                    rel="noopener"
+                    >code</a
+                  >
+                  <a
+                    class="link-btn"
+                    href="https://lost-circuits.netlify.app/"
+                    target="_blank"
+                    rel="noopener"
+                    >live demo</a
+                  >
+                  <a
+                    class="link-btn"
+                    href="https://docs.google.com/spreadsheets/d/1S-ncNCPUNT8zuqOPZFNq0mbKc3nBu5DurDncP9IntwM/edit?usp=sharing"
+                    target="_blank"
+                    rel="noopener"
+                    >dataset (sheet)</a
+                  >
+                </div>
+              </div>
+            </div>
+          </article>
+        </div>
+      </section>
+
+      <!-- MACHINE DRAWING -->
+      <section id="machine-drawing" class="section">
+        <div class="container">
+          <div class="section-header">
+            <h2>machine drawing</h2>
+            <p class="muted">
+              plotter as collaborator · slow computation · parametric editions
+            </p>
+          </div>
+
+          <article class="project" id="core-memory">
+            <div class="project-header">
+              <div>
+                <h3>magnetic core memory</h3>
+                <p class="project-meta">
+                  [plotter] p5 + svg · generative homage to woven circuits
                 </p>
               </div>
+              <button class="copy-btn" data-copy="#core-memory">
+                copy link
+              </button>
+            </div>
 
-              <details>
-                <summary>Parametric System & Code Structure</summary>
-                <div class="details-content">
-                  <h4>The Drawing is Parametric</h4>
-                  <p>A handful of global variables define the entire system:</p>
-                  <pre><code>let seed = 42;                 // reproducible variations
+            <div class="project-body">
+              <div class="gallery">
+                <div class="gallery-item">
+                  <img
+                    src="assets/plot/gallery-plot.jpg"
+                    alt="pen plot overview of core memory pattern"
+                  />
+                  <div class="gallery-caption">gallery-plot.jpg — overview</div>
+                </div>
+                <div class="gallery-quad">
+                  <div class="gallery-item">
+                    <img
+                      src="assets/plot/1.jpg"
+                      alt="plot closeup 1"
+                      loading="lazy"
+                    />
+                    <div class="gallery-caption">plot detail 1</div>
+                  </div>
+
+                  <div class="gallery-item">
+                    <img
+                      src="assets/plot/2.jpg"
+                      alt="plot closeup 2"
+                      loading="lazy"
+                    />
+                    <div class="gallery-caption">plot detail 2</div>
+                  </div>
+
+                  <div class="gallery-item">
+                    <img
+                      src="assets/plot/3.jpg"
+                      alt="plot closeup 3"
+                      loading="lazy"
+                    />
+                    <div class="gallery-caption">plot detail 3</div>
+                  </div>
+
+                  <div class="gallery-item">
+                    <img
+                      src="assets/plot/4.jpg"
+                      alt="plot closeup 4"
+                      loading="lazy"
+                    />
+                    <div class="gallery-caption">plot detail 4</div>
+                  </div>
+                </div>
+
+                <div class="gallery-item">
+                  <img
+                    src="assets/plot/plots.png"
+                    alt="plots overview"
+                    loading="lazy"
+                  />
+                  <div class="gallery-caption">plots overview</div>
+                </div>
+
+                <div class="gallery-item">
+                  <img
+                    src="assets/plot/quad.png"
+                    alt="quad plot detail"
+                    loading="lazy"
+                  />
+                  <div class="gallery-caption">quad.png — quad detail</div>
+                </div>
+              </div>
+
+              <div class="content">
+                <p>
+                  This was genuinely my first time using a pen plotter. There
+                  was a phase a while ago when I became obsessed with watching
+                  plotter drawings online—videos of machines slowly tracing ink,
+                  artists plotting geometric patterns with multiple pens, and
+                  long, meditative drawing processes. I was tempted to get one
+                  for home use, but that phase eventually faded.
+                </p>
+
+                <p>
+                  Now it's come back in a much more meaningful way. Seeing
+                  what's possible with plotting beyond pure machine drawing has
+                  shifted my perspective. Plotters aren't just mechanical tools;
+                  they're being used for textile patterning, experimental
+                  circuitry, and even edible ink drawings on cookies (which I
+                  very much want to try). That realization made me want to
+                  explore the plotter as a bridge between design, code, and
+                  fabrication.
+                </p>
+
+                <h4>A Brief History of Core Memory</h4>
+                <figure class="inline-figure">
+                  <img
+                    src="assets/plot/examples.png"
+                    alt="historical examples of magnetic core memory"
+                  />
+                  <figcaption class="muted">
+                    historical examples of magnetic core memory planes and woven
+                    circuits
+                  </figcaption>
+                </figure>
+
+                <p>
+                  I created a generative pattern inspired by
+                  <strong>magnetic core memory</strong>, one of the earliest
+                  forms of computer memory used from the 1950s through the early
+                  1970s. Core memory consisted of tiny ferrite rings ("cores")
+                  woven into a grid of wires, each magnetized in one of two
+                  directions to represent a binary 1 or 0. It was both an
+                  engineering marvel and a hand-crafted object—the physical
+                  fabric of computation before silicon chips.
+                </p>
+
+                <p>
+                  Invented in the late 1940s by Jay Forrester at MIT's Whirlwind
+                  project, core memory became the standard for computers
+                  throughout the 1950s and 60s. It powered machines like the IBM
+                  1401 and the Apollo Guidance Computer. The first computers to
+                  fly to the Moon were literally woven by hand.
+                </p>
+
+                <p>
+                  What fascinates me most is that these memory planes were often
+                  assembled bywomen with incredible dexterity, threading wires
+                  through microscopic rings using fine needles. Each bit of
+                  memory was physical, tangible, and placed with care. Core
+                  memory was textile computation: computing as weaving, logic as
+                  fabric, data as something soft and structured.
+                </p>
+
+                <h4>Pattern & Code</h4>
+                <p>
+                  I've always been drawn to circuit art in all its
+                  forms—freeform soldering, wire sculptures, experimental PCBs,
+                  breadboard chaos. Circuits feel like drawings to me:
+                  technical, but deeply poetic. The grid-like weave of core
+                  memory sits perfectly at the intersection of textile and
+                  technology, structure and softness.
+                </p>
+
+                <p>
+                  Using p5.js with the p5.svg renderer, I built a system that
+                  generates a stylized "core memory panel," complete with
+                  vertical and horizontal bus lines, crisscross stitches, and
+                  subtle imperfections. The pattern went through several
+                  iterations, adjusting density, spacing, stroke weight, wire
+                  behavior, and randomness until it felt digitally hand-woven
+                  rather than mechanically perfect.
+                </p>
+
+                <div class="callout">
+                  <p>
+                    <strong>Machine Drawing Note:</strong> This drawing is not
+                    animated. It is computed once, like a print pulled from a
+                    press. The code behaves less like a sketch and more like a
+                    small drawing machine with adjustable "knobs."
+                  </p>
+                </div>
+
+                <details>
+                  <summary>Parametric System & Code Structure</summary>
+                  <div class="details-content">
+                    <h4>The Drawing is Parametric</h4>
+                    <p>
+                      A handful of global variables define the entire system:
+                    </p>
+                    <pre><code>let seed = 42;                 // reproducible variations
 let coreSpacing = 35;          // grid density
 let coreSize = 18;             // motif scale
 let coreThickness = 6;         // ring thickness
 let seamless = true;           // infinite tiling
 let plotMode = true;           // stroke-only plotting</code></pre>
 
-                  <h4>Single-Frame, Print-First Logic</h4>
-                  <pre><code>randomSeed(seed);
+                    <h4>Single-Frame, Print-First Logic</h4>
+                    <pre><code>randomSeed(seed);
 noLoop();</code></pre>
 
-                  <h4>Drawing Pipeline (Layers)</h4>
-                  <pre><code>const { cols, rows, startX, startY } = computeGridParams();
+                    <h4>Drawing Pipeline (Layers)</h4>
+                    <pre><code>const { cols, rows, startX, startY } = computeGridParams();
 drawVerticalWires(cols, rows, startX, startY);
 drawHorizontalWires(cols, rows, startX, startY);
 drawDiagonalWires(cols, rows, startX, startY);
 drawAllCores(cols, rows, startX, startY);</code></pre>
 
-                  <h4>Controlled Imperfection</h4>
-                  <pre><code>const jitterX = random(-0.5, 0.5);
+                    <h4>Controlled Imperfection</h4>
+                    <pre><code>const jitterX = random(-0.5, 0.5);
 const jitterY = random(-0.5, 0.5);
 
 if (random() > 0.02) {
   drawCorePlot(x + jitterX, y + jitterY);
 }</code></pre>
 
+                    <p>
+                      This introduces softness without breaking the underlying
+                      structure—the machine hesitates, but never collapses.
+                    </p>
+                  </div>
+                </details>
+
+                <h4>Iterations</h4>
+                <p>
+                  I plotted three different physical iterations from the final
+                  code:
+                </p>
+                <ul>
+                  <li>
+                    <strong>Industrial version</strong> — plotted on brown craft
+                    board, evoking mid-century lab hardware
+                  </li>
+                  <li>
+                    <strong>Minimal version</strong> — black on white,
+                    emphasizing geometry and structure
+                  </li>
+                  <li>
+                    <strong>Textured multi-ink version</strong> — layered lines
+                    and overlapping color, messy and dense, closer to how real
+                    core memory looks under magnification
+                  </li>
+                </ul>
+
+                <p>
+                  The final plot took nearly two hours to complete and even ran
+                  one of my pens dry halfway through, causing a subtle color
+                  shift. I changed pens to mask it, but that accident gave the
+                  piece a layered quality I ended up liking. Even after
+                  producing three versions, I'm still undecided on which one I
+                  like most. Each represents a different side of my ongoing
+                  fascination with magnetic core memory as both an aesthetic
+                  system and emotional artifact.
+                </p>
+
+                <h4>Process Notes</h4>
+                <ul>
+                  <li><strong>Plotter:</strong> AxiDraw pen plotter</li>
+                  <li><strong>Pens:</strong> Sakura Gelly Roll, Micron 005</li>
+                  <li><strong>Paper:</strong> cardstock</li>
+                  <li>
+                    <strong>Plot time:</strong> ~25–30 min (first two), ~2 hours
+                    (final)
+                  </li>
+                </ul>
+
+                <p class="muted">
+                  Watching the plotter slowly trace each ring and wire felt
+                  meditative—a form of slow computation that echoes the original
+                  labor of weaving memory by hand. It sits somewhere between
+                  digital precision and human care.
+                </p>
+
+                <div class="link-grid">
+                  <a
+                    class="link-btn"
+                    href="https://editor.p5js.org/electrocute/sketches/7kaBL4gjQ"
+                    target="_blank"
+                    rel="noopener"
+                    >code</a
+                  >
+                </div>
+              </div>
+            </div>
+          </article>
+        </div>
+      </section>
+
+      <!-- EXPERIMENTAL PUBLICATIONS -->
+      <section id="experimental-publications" class="section">
+        <div class="container">
+          <div class="section-header">
+            <h2>experimental publications</h2>
+            <p class="muted">
+              tutorial as art · dataset publication · touch, parody, archives
+            </p>
+          </div>
+
+          <!-- PUBLICATION A -->
+          <article class="project" id="soft-circuits">
+            <div class="project-header">
+              <div>
+                <h3>how to touch electricity</h3>
+                <p class="project-meta">
+                  [part a] soft circuits for soft beings · zine + basic kit
+                </p>
+              </div>
+              <button class="copy-btn" data-copy="#soft-circuits">
+                copy link
+              </button>
+            </div>
+
+            <div class="project-body">
+              <div class="gallery">
+                <div class="gallery-item">
+                  <img
+                    src="assets/pub-a/1.png"
+                    alt="zine spread photo for how to touch electricity"
+                  />
+                  <div class="gallery-caption">1.jpg — zine spread</div>
+                </div>
+                <div class="gallery-item">
+                  <img
+                    src="assets/pub-a/tutorial.gif"
+                    alt="flip-through gif"
+                    loading="lazy"
+                  />
+                  <div class="gallery-caption">flip-through gif</div>
+                </div>
+                <div class="gallery-item">
+                  <img
+                    src="assets/pub-a/a1.png"
+                    alt="zine detail 1"
+                    loading="lazy"
+                  />
+                  <div class="gallery-caption">zine detail 1</div>
+                </div>
+                <div class="gallery-item">
+                  <img
+                    src="assets/pub-a/a2.png"
+                    alt="zine detail 2"
+                    loading="lazy"
+                  />
+                  <div class="gallery-caption">zine detail 2</div>
+                </div>
+              </div>
+
+              <div class="content">
+                <div class="gallery-item">
+                  <img
+                    src="assets/pub-a/flower.png"
+                    alt="flower logo with positive and negative signs"
+                  />
+                </div>
+                <p>
+                  There's a moment in many electronics tutorials where
+                  everything becomes rigid. The language hardens. The diagrams
+                  flatten. Touch disappears. Electricity becomes something you
+                  control, not something you feel. This small zine began as a
+                  refusal of that moment—and also as my first actual zine.
+                </p>
+
+                <p>
+                  <em
+                    >How to Touch Electricity (Soft Circuits for Soft
+                    Beings)</em
+                  >
+                  was created for Experimental Publishing: Tutorial as Art, an
+                  assignment that asks us to treat tutorials not just as
+                  instructional tools, but as cultural and artistic objects.
+                  Rather than focusing on efficiency or mastery, the project
+                  explores what happens when a tutorial becomes poetic, tactile,
+                  and emotionally aware.
+                </p>
+
+                <p>
+                  The zine is a simple, hands-on guide to soft circuits that
+                  teaches basic electronic ideas—connection, resistance,
+                  flow—through gentle, embodied interaction. It is paired with a
+                  small physical kit, allowing the reader to build and activate
+                  each circuit directly (coin battery, copper tape, spare LED
+                  sticker).
+                </p>
+
+                <div class="callout">
                   <p>
-                    This introduces softness without breaking the underlying structure—the machine hesitates, but never
-                    collapses.
+                    Rather than asking "How does this work?" the zine asks:
+                    <strong
+                      >What does electricity feel like when we meet it
+                      softly?</strong
+                    >
                   </p>
                 </div>
-              </details>
 
-              <h4>Iterations</h4>
-              <p>I plotted three different physical iterations from the final code:</p>
-              <ul>
-                <li><strong>Industrial version</strong> — plotted on brown craft board, evoking mid-century lab hardware
-                </li>
-                <li><strong>Minimal version</strong> — black on white, emphasizing geometry and structure</li>
-                <li><strong>Textured multi-ink version</strong> — layered lines and overlapping color, messy and dense,
-                  closer to how
-                  real core memory looks under magnification</li>
-              </ul>
+                <h4>Circuits as Gestures</h4>
+                <p>
+                  Each page introduces a small gesture for touching electricity.
+                  These gestures are intentionally slow, minimal, and
+                  accessible:
+                </p>
+                <ul>
+                  <li><strong>pressing</strong></li>
+                  <li><strong>tracing</strong></li>
+                  <li><strong>folding</strong></li>
+                  <li><strong>holding</strong></li>
+                </ul>
 
-              <p>
-                The final plot took nearly two hours to complete and even ran one of my pens dry halfway through,
-                causing a subtle color
-                shift. I changed pens to mask it, but that accident gave the piece a layered quality I ended up liking.
-                Even after producing
-                three versions, I'm still undecided on which one I like most. Each represents a different side of my
-                ongoing fascination with
-                magnetic core memory as both an aesthetic system and emotional artifact.
-              </p>
+                <p>
+                  Each gesture corresponds to a flat, low-voltage paper circuit
+                  that can be built using materials from the accompanying kit:
+                  copper tape, LEDs, graphite, and a coin cell. The reader
+                  doesn't just observe the circuit; they assemble it, touch it,
+                  and feel how it responds. A light turns on with a gentle
+                  press. Brightness shifts as a finger traces graphite. A fold
+                  closes a circuit that wasn't connected before. In these
+                  moments, touch becomes the interface.
+                </p>
 
-              <h4>Process Notes</h4>
-              <ul>
-                <li><strong>Plotter:</strong> AxiDraw pen plotter</li>
-                <li><strong>Pens:</strong> Sakura Gelly Roll, Micron 005</li>
-                <li><strong>Paper:</strong> cardstock</li>
-                <li><strong>Plot time:</strong> ~25–30 min (first two), ~2 hours (final)</li>
-              </ul>
+                <h4>Electricity as a Relationship</h4>
+                <p>
+                  Alongside the circuits are short poetic reflections that
+                  reinterpret electronic components through emotional and
+                  sensory language:
+                </p>
+                <ul>
+                  <li>resistance becomes <strong>hesitation</strong></li>
+                  <li>voltage becomes <strong>intensity</strong></li>
+                  <li>current becomes <strong>flow</strong></li>
+                  <li>ground becomes <strong>safety</strong></li>
+                </ul>
 
-              <p class="muted">
-                Watching the plotter slowly trace each ring and wire felt meditative—a form of slow computation that
-                echoes the
-                original labor of weaving memory by hand. It sits somewhere between digital precision and human care.
-              </p>
+                <p>
+                  This reframing aligns with the spirit of the assignment, which
+                  encourages tutorials that provoke reflection or reframe
+                  familiar systems. Electronics are often taught as rigid and
+                  unforgiving; this zine instead treats electricity as something
+                  relational—responsive to pressure, proximity, and care.
+                  Electricity is not positioned as something to dominate, but as
+                  something to engage with gently.
+                </p>
 
-              <div class="link-grid">
-                <a class="link-btn" href="https://editor.p5js.org/electrocute/sketches/7kaBL4gjQ" target="_blank"
-                  rel="noopener">code</a>
-              </div>
-            </div>
-          </div>
-        </article>
-      </div>
-    </section>
+                <h4>The Zine + Kit</h4>
+                <p>
+                  The project includes a small, basic kit meant to lower the
+                  barrier to experimentation. It contains only essential
+                  materials and encourages hands-on exploration rather than
+                  perfect outcomes. Pairing the zine with a kit was important to
+                  me. Reading, making, and touching happen together, and the
+                  circuits remain visible, imperfect, and human.
+                </p>
 
-    <!-- EXPERIMENTAL PUBLICATIONS -->
-    <section id="experimental-publications" class="section">
-      <div class="container">
-        <div class="section-header">
-          <h2>experimental publications</h2>
-          <p class="muted">tutorial as art · dataset publication · touch, parody, archives</p>
-        </div>
+                <h4>Why a Tutorial as Art?</h4>
+                <p>
+                  This project connects to my ongoing interest in soft
+                  computing, e-textiles, and care-based approaches to
+                  interaction design. The "tutorial as art" format made space to
+                  treat instruction itself as a creative medium—one that can
+                  carry tone, values, and emotion. Soft circuits slow things
+                  down. They make room for uncertainty. They allow electronics
+                  to feel approachable rather than intimidating.
+                </p>
 
-        <!-- PUBLICATION A -->
-        <article class="project" id="soft-circuits">
-          <div class="project-header">
-            <div>
-              <h3>how to touch electricity</h3>
-              <p class="project-meta">[part a] soft circuits for soft beings · zine + basic kit</p>
-            </div>
-            <button class="copy-btn" data-copy="#soft-circuits">copy link</button>
-          </div>
+                <h4>What I Learned</h4>
+                <p>
+                  Working on this project, especially as my first zine,
+                  reinforced a few key ideas:
+                </p>
+                <ul>
+                  <li>
+                    Touch can be a meaningful input without complex sensors
+                  </li>
+                  <li>
+                    Learning electronics doesn't have to begin with abstraction
+                  </li>
+                  <li>Simple materials can support rich interaction</li>
+                  <li>
+                    Making something small makes experimentation feel possible
+                  </li>
+                </ul>
 
-          <div class="project-body">
-            <div class="gallery">
-              <div class="gallery-item">
-                <img src="assets/pub-a/1.png" alt="zine spread photo for how to touch electricity" />
-                <div class="gallery-caption">1.jpg — zine spread</div>
-              </div>
-              <div class="gallery-item">
-                <img src="assets/pub-a/tutorial.gif" alt="flip-through gif" loading="lazy" />
-                <div class="gallery-caption">flip-through gif</div>
-              </div>
-              <div class="gallery-item">
-                <img src="assets/pub-a/a1.png" alt="zine detail 1" loading="lazy" />
-                <div class="gallery-caption">zine detail 1</div>
-              </div>
-              <div class="gallery-item">
-                <img src="assets/pub-a/a2.png" alt="zine detail 2" loading="lazy" />
-                <div class="gallery-caption">zine detail 2</div>
-              </div>
-            </div>
+                <p>
+                  Most importantly, I learned that gentleness is not the
+                  opposite of rigor. It's simply a different interface.
+                </p>
 
-            <div class="content">
-                <div class="gallery-item">
-                  <img src="assets/pub-a/flower.png" alt="flower logo with positive and negative signs" />
+                <h4>Looking Forward</h4>
+                <p>
+                  Making this zine was genuinely fun. The format felt intimate
+                  and flexible, and the process of writing, building,
+                  assembling, and testing by hand made the work feel alive. As a
+                  first zine, it gave me confidence and made me excited about
+                  what else this format can hold—perhaps a volume 2? more
+                  tutorials? more circuits?
+                </p>
+
+                <p class="muted">
+                  Electricity doesn't always need to be commanded. Sometimes, it
+                  just needs to be touched. ☻
+                </p>
+
+                <div class="link-grid">
+                  <a
+                    class="link-btn"
+                    href="assets/pub-a/1.pdf"
+                    target="_blank"
+                    rel="noopener"
+                    >pdf (01)</a
+                  >
+                  <a
+                    class="link-btn"
+                    href="assets/pub-a/2.pdf"
+                    target="_blank"
+                    rel="noopener"
+                    >pdf (02)</a
+                  >
                 </div>
-              <p>
-                There's a moment in many electronics tutorials where everything becomes rigid. The language hardens. The
-                diagrams flatten.
-                Touch disappears. Electricity becomes something you control, not something you feel. This small zine
-                began as a refusal
-                of that moment—and also as my first actual zine.
-              </p>
+              </div>
+            </div>
+          </article>
 
-              <p>
-                <em>How to Touch Electricity (Soft Circuits for Soft Beings)</em> was created for Experimental
-                Publishing: Tutorial as Art,
-                an assignment that asks us to treat tutorials not just as instructional tools, but as cultural and
-                artistic objects. Rather
-                than focusing on efficiency or mastery, the project explores what happens when a tutorial becomes
-                poetic, tactile, and
-                emotionally aware.
-              </p>
-
-              <p>
-                The zine is a simple, hands-on guide to soft circuits that teaches basic electronic ideas—connection,
-                resistance, flow—through
-                gentle, embodied interaction. It is paired with a small physical kit, allowing the reader to build and
-                activate each circuit
-                directly (coin battery, copper tape, spare LED sticker).
-              </p>
-
-              <div class="callout">
-                <p>
-                  Rather than asking "How does this work?" the zine asks: <strong>What does electricity feel like when
-                    we meet it softly?</strong>
+          <!-- PUBLICATION B -->
+          <article class="project" id="debug-log">
+            <div class="project-header">
+              <div>
+                <h3>debug.log — a system trying its best</h3>
+                <p class="project-meta">
+                  [part b] soft crashes, edition 01 · dataset log · console
+                  parody
                 </p>
               </div>
+              <button class="copy-btn" data-copy="#debug-log">copy link</button>
+            </div>
 
-              <h4>Circuits as Gestures</h4>
-              <p>Each page introduces a small gesture for touching electricity. These gestures are intentionally slow,
-                minimal, and accessible:</p>
-              <ul>
-                <li><strong>pressing</strong></li>
-                <li><strong>tracing</strong></li>
-                <li><strong>folding</strong></li>
-                <li><strong>holding</strong></li>
-              </ul>
+            <div class="project-body">
+              <div class="gallery">
+                <div class="gallery-item">
+                  <img
+                    src="assets/pub-b/b.png"
+                    alt="debug.log scan or print artifact"
+                  />
+                  <div class="gallery-caption">
+                    b.png — publication scan (edition 01)
+                  </div>
+                </div>
+                <div class="gallery-item">
+                  <img
+                    src="assets/pub-b/log_code.png"
+                    alt="code output"
+                    loading="lazy"
+                  />
+                  <div class="gallery-caption">code output</div>
+                </div>
+                <div class="gallery-item">
+                  <img
+                    src="assets/pub-b/log_code_color.png"
+                    alt="color code output"
+                    loading="lazy"
+                  />
+                  <div class="gallery-caption">color code output</div>
+                </div>
+              </div>
 
-              <p>
-                Each gesture corresponds to a flat, low-voltage paper circuit that can be built using materials from the
-                accompanying kit:
-                copper tape, LEDs, graphite, and a coin cell. The reader doesn't just observe the circuit; they assemble
-                it, touch it, and
-                feel how it responds. A light turns on with a gentle press. Brightness shifts as a finger traces
-                graphite. A fold closes a
-                circuit that wasn't connected before. In these moments, touch becomes the interface.
-              </p>
+              <div class="content">
+                <p>
+                  This project was created for Experimental Publishing Part B,
+                  an assignment focused on experimental publication as a way of
+                  capturing systems, datasets, and cultural forms through print
+                  and code. The brief asked us to work with printing or
+                  plotting, use code somewhere in the process, and consider
+                  publishing not just as output, but as concept.
+                </p>
 
-              <h4>Electricity as a Relationship</h4>
-              <p>Alongside the circuits are short poetic reflections that reinterpret electronic components through
-                emotional and sensory language:</p>
-              <ul>
-                <li>resistance becomes <strong>hesitation</strong></li>
-                <li>voltage becomes <strong>intensity</strong></li>
-                <li>current becomes <strong>flow</strong></li>
-                <li>ground becomes <strong>safety</strong></li>
-              </ul>
+                <p>
+                  For this project, I chose to work with something I encounter
+                  constantly but usually try to erase: <strong>errors</strong>.
+                </p>
 
-              <p>
-                This reframing aligns with the spirit of the assignment, which encourages tutorials that provoke
-                reflection or reframe familiar
-                systems. Electronics are often taught as rigid and unforgiving; this zine instead treats electricity as
-                something
-                relational—responsive to pressure, proximity, and care. Electricity is not positioned as something to
-                dominate, but as something
-                to engage with gently.
-              </p>
+                <h4>Concept</h4>
+                <p>
+                  <em>debug.log — a system trying its best</em> is an
+                  experimental publication built from real software and hardware
+                  error messages collected from my own creative coding and
+                  electronics practice: WiFi failures, parsing errors, memory
+                  errors, serial port issues.
+                </p>
 
-              <h4>The Zine + Kit</h4>
-              <p>
-                The project includes a small, basic kit meant to lower the barrier to experimentation. It contains only
-                essential materials and
-                encourages hands-on exploration rather than perfect outcomes. Pairing the zine with a kit was important
-                to me. Reading, making,
-                and touching happen together, and the circuits remain visible, imperfect, and human.
-              </p>
+                <p>
+                  Rather than treating these errors as problems to be fixed, I
+                  treated them as a dataset. Each error message is paired with a
+                  "tender" interpretation—rewriting the failure as if the system
+                  had emotional states: shyness, fatigue, hesitation, confusion.
+                  The original technical language remains intact, but its
+                  meaning shifts.
+                </p>
 
-              <h4>Why a Tutorial as Art?</h4>
-              <p>
-                This project connects to my ongoing interest in soft computing, e-textiles, and care-based approaches to
-                interaction design.
-                The "tutorial as art" format made space to treat instruction itself as a creative medium—one that can
-                carry tone, values, and
-                emotion. Soft circuits slow things down. They make room for uncertainty. They allow electronics to feel
-                approachable rather than
-                intimidating.
-              </p>
+                <p>Instead of resolving failure, the project reframes it.</p>
 
-              <h4>What I Learned</h4>
-              <p>Working on this project, especially as my first zine, reinforced a few key ideas:</p>
-              <ul>
-                <li>Touch can be a meaningful input without complex sensors</li>
-                <li>Learning electronics doesn't have to begin with abstraction</li>
-                <li>Simple materials can support rich interaction</li>
-                <li>Making something small makes experimentation feel possible</li>
-              </ul>
+                <p>Conceptually, the work sits between:</p>
+                <ul>
+                  <li>publishing a found or collected dataset</li>
+                  <li>
+                    redesigning a mundane technical interface into something
+                    emotional
+                  </li>
+                </ul>
 
-              <p>Most importantly, I learned that gentleness is not the opposite of rigor. It's simply a different
-                interface.</p>
+                <p>
+                  The goal was not to aestheticize error, but to archive it—to
+                  let failure exist as documentation.
+                </p>
 
-              <h4>Looking Forward</h4>
-              <p>
-                Making this zine was genuinely fun. The format felt intimate and flexible, and the process of writing,
-                building, assembling,
-                and testing by hand made the work feel alive. As a first zine, it gave me confidence and made me excited
-                about what else this
-                format can hold—perhaps a volume 2? more tutorials? more circuits?
-              </p>
+                <h4>Form & Design</h4>
+                <p>
+                  The publication is intentionally restrained and archival. It
+                  references early software logs and command-line interfaces,
+                  particularly 1990s-era debugging consoles. The visual language
+                  is rigid, plain, and utilitarian. There are no decorative
+                  gestures. This was a deliberate choice: by keeping the
+                  formatting strict, the emotional weight lives entirely in the
+                  language.
+                </p>
 
-              <p class="muted">
-                Electricity doesn't always need to be commanded. Sometimes, it just needs to be touched. ☻
-              </p>
+                <p>
+                  <strong
+                    >The system looks cold. The text is soft. That tension is
+                    the work.</strong
+                  >
+                </p>
 
-        <div class="link-grid">
-          <a class="link-btn" href="assets/pub-a/1.pdf" target="_blank" rel="noopener">pdf (01)</a>
-          <a class="link-btn" href="assets/pub-a/2.pdf" target="_blank" rel="noopener">pdf (02)</a>
+                <p>
+                  The project also operates as a quiet parody of technical
+                  documentation and debugging culture, adopting the visual
+                  language of system logs while subverting their usual tone of
+                  urgency and authority.
+                </p>
+
+                <h4>Process</h4>
+                <p>
+                  I began by slowly collecting/keeping track of error messages
+                  over time from:
+                </p>
+                <ul>
+                  <li>Arduino projects</li>
+                  <li>p5.js sketches</li>
+                  <li>WiFi connections</li>
+                  <li>machine learning web experiments</li>
+                </ul>
+
+                <p>
+                  I selected entries that felt common, repetitive, or
+                  emotionally resonant—failures that occur not because something
+                  is broken, but because something is trying.
+                </p>
+
+                <p>
+                  I then built a coded layout system using p5.js. Rather than
+                  using code to generate imagery, I used it as a design system.
+                  The sketch generates timestamps, shuffles the dataset
+                  deterministically, assigns error levels (error / warning /
+                  info), and formats each entry into a Windows-95-style console
+                  layout. All hierarchy, spacing, and formatting are generated
+                  through code rather than manual layout decisions.
+                </p>
+
+                <h4>Production & Display</h4>
+                <p>
+                  The printed work is presented using clear sleeves, binder
+                  clips, clipboards, and archive labels—materials that reference
+                  institutional documentation, lab records, and system logs. One
+                  copy functions as the primary archival artifact. The remaining
+                  copies are displayed as a small distribution stack,
+                  emphasizing that this is a log meant to be shared, handled,
+                  and read, not framed as a decorative object.
+                </p>
+
+                <h4>
+                  Connection to The Soft Computer (Tiny Thesis Experiment)
+                </h4>
+                <p>
+                  This project also functioned as an early experiment for my
+                  thesis, which explores the idea of the
+                  <strong>Soft Computer</strong>: a form of computing that
+                  prioritizes emotional awareness, care, and vulnerability over
+                  efficiency and optimization.
+                </p>
+
+                <p>
+                  Within that trajectory, <em>debug.log</em> contributes to an
+                  ongoing framework I refer to as
+                  <strong>Tender Errors</strong>: a practice of noticing,
+                  collecting, and reinterpreting moments of technical failure as
+                  meaningful records rather than interruptions to be erased.
+                </p>
+
+                <p>
+                  Rather than building a new interface or device, this project
+                  softens an existing one. The debugging console, normally a
+                  site of urgency, frustration, and control, becomes a space for
+                  reflection and care. This mirrors a central question in my
+                  thesis work: what might computing look like if systems were
+                  allowed to acknowledge effort, fatigue, and uncertainty?
+                </p>
+
+                <div class="callout">
+                  <p>
+                    <strong>Short Reflection:</strong> Working on this project
+                    shifted how I think about failure in my own practice.
+                    Instead of seeing errors as interruptions, I began to see
+                    them as emotional records—quiet evidence of persistence
+                    inside technical systems. Keeping the design visually quiet
+                    allowed the language to carry the emotional weight. The
+                    system does not apologize or resolve itself. It simply
+                    admits that it is trying.
+                  </p>
+                </div>
+
+                <h4>Toward Edition 02</h4>
+                <p>
+                  <em>debug.log</em> feels like the first artifact in a longer
+                  publishing practice connected to my thesis.
+                </p>
+                <p>A future Edition 02 could expand the work by:</p>
+                <ul>
+                  <li>
+                    collecting errors over a longer period of time, allowing
+                    emotional patterns to emerge
+                  </li>
+                  <li>
+                    incorporating hardware and environmental failures, such as
+                    sensor noise or unstable power
+                  </li>
+                  <li>
+                    introducing material degradation—fading ink, paper
+                    variation, disrupted formatting—as another layer of system
+                    "state"
+                  </li>
+                  <li>
+                    allowing the log to subtly change between printings,
+                    reflecting instability over time
+                  </li>
+                </ul>
+
+                <p>
+                  Rather than escalating in scale, the next edition would deepen
+                  the archive—continuing to document systems not at their most
+                  powerful, but at their most human level.
+                </p>
+
+                <div class="link-grid">
+                  <a
+                    class="link-btn"
+                    href="assets/pub-b/debug_log.pdf"
+                    target="_blank"
+                    rel="noopener"
+                    >pdf</a
+                  >
+                  <a
+                    class="link-btn"
+                    href="https://editor.p5js.org/electrocute/sketches/D9yrAFQHW"
+                    target="_blank"
+                    rel="noopener"
+                    >p5 layout system</a
+                  >
+                </div>
+              </div>
+            </div>
+          </article>
         </div>
+      </section>
+    </main>
 
-            </div>
-          </div>
-        </article>
-
-        <!-- PUBLICATION B -->
-        <article class="project" id="debug-log">
-          <div class="project-header">
-            <div>
-              <h3>debug.log — a system trying its best</h3>
-              <p class="project-meta">[part b] soft crashes, edition 01 · dataset log · console parody</p>
-            </div>
-            <button class="copy-btn" data-copy="#debug-log">copy link</button>
-          </div>
-
-          <div class="project-body">
-            <div class="gallery">
-              <div class="gallery-item">
-                <img src="assets/pub-b/b.png" alt="debug.log scan or print artifact" />
-                <div class="gallery-caption">b.png — publication scan (edition 01)</div>
-              </div>
-              <div class="gallery-item">
-                <img src="assets/pub-b/log_code.png" alt="code output" loading="lazy" />
-                <div class="gallery-caption">code output</div>
-              </div>
-              <div class="gallery-item">
-                <img src="assets/pub-b/log_code_color.png" alt="color code output" loading="lazy" />
-                <div class="gallery-caption">color code output</div>
-              </div>
-            </div>
-
-            <div class="content">
-              <p>
-                This project was created for Experimental Publishing Part B, an assignment focused on experimental
-                publication as a way of
-                capturing systems, datasets, and cultural forms through print and code. The brief asked us to work with
-                printing or plotting,
-                use code somewhere in the process, and consider publishing not just as output, but as concept.
-              </p>
-
-              <p>For this project, I chose to work with something I encounter constantly but usually try to erase:
-                <strong>errors</strong>.</p>
-
-              <h4>Concept</h4>
-              <p>
-                <em>debug.log — a system trying its best</em> is an experimental publication built from real software
-                and hardware error
-                messages collected from my own creative coding and electronics practice: WiFi failures, parsing errors,
-                memory errors, serial
-                port issues.
-              </p>
-
-              <p>
-                Rather than treating these errors as problems to be fixed, I treated them as a dataset. Each error
-                message is paired with a
-                "tender" interpretation—rewriting the failure as if the system had emotional states: shyness, fatigue,
-                hesitation, confusion.
-                The original technical language remains intact, but its meaning shifts.
-              </p>
-
-              <p>Instead of resolving failure, the project reframes it.</p>
-
-              <p>Conceptually, the work sits between:</p>
-              <ul>
-                <li>publishing a found or collected dataset</li>
-                <li>redesigning a mundane technical interface into something emotional</li>
-              </ul>
-
-              <p>The goal was not to aestheticize error, but to archive it—to let failure exist as documentation.</p>
-
-              <h4>Form & Design</h4>
-              <p>
-                The publication is intentionally restrained and archival. It references early software logs and
-                command-line interfaces,
-                particularly 1990s-era debugging consoles. The visual language is rigid, plain, and utilitarian. There
-                are no decorative
-                gestures. This was a deliberate choice: by keeping the formatting strict, the emotional weight lives
-                entirely in the language.
-              </p>
-
-              <p>
-                <strong>The system looks cold. The text is soft. That tension is the work.</strong>
-              </p>
-
-              <p>
-                The project also operates as a quiet parody of technical documentation and debugging culture, adopting
-                the visual language of
-                system logs while subverting their usual tone of urgency and authority.
-              </p>
-
-              <h4>Process</h4>
-              <p>I began by slowly collecting/keeping track of error messages over time from:</p>
-              <ul>
-                <li>Arduino projects</li>
-                <li>p5.js sketches</li>
-                <li>WiFi connections</li>
-                <li>machine learning web experiments</li>
-              </ul>
-
-              <p>
-                I selected entries that felt common, repetitive, or emotionally resonant—failures that occur not because
-                something is broken,
-                but because something is trying.
-              </p>
-
-              <p>
-                I then built a coded layout system using p5.js. Rather than using code to generate imagery, I used it as
-                a design system.
-                The sketch generates timestamps, shuffles the dataset deterministically, assigns error levels (error /
-                warning / info), and
-                formats each entry into a Windows-95-style console layout. All hierarchy, spacing, and formatting are
-                generated through code
-                rather than manual layout decisions.
-              </p>
-
-              <h4>Production & Display</h4>
-              <p>
-                The printed work is presented using clear sleeves, binder clips, clipboards, and archive
-                labels—materials that reference
-                institutional documentation, lab records, and system logs. One copy functions as the primary archival
-                artifact. The remaining
-                copies are displayed as a small distribution stack, emphasizing that this is a log meant to be shared,
-                handled, and read, not
-                framed as a decorative object.
-              </p>
-
-              <h4>Connection to The Soft Computer (Tiny Thesis Experiment)</h4>
-              <p>
-                This project also functioned as an early experiment for my thesis, which explores the idea of the
-                <strong>Soft Computer</strong>:
-                a form of computing that prioritizes emotional awareness, care, and vulnerability over efficiency and
-                optimization.
-              </p>
-
-              <p>
-                Within that trajectory, <em>debug.log</em> contributes to an ongoing framework I refer to as
-                <strong>Tender Errors</strong>:
-                a practice of noticing, collecting, and reinterpreting moments of technical failure as meaningful
-                records rather than interruptions
-                to be erased.
-              </p>
-
-              <p>
-                Rather than building a new interface or device, this project softens an existing one. The debugging
-                console, normally a site of
-                urgency, frustration, and control, becomes a space for reflection and care. This mirrors a central
-                question in my thesis work:
-                what might computing look like if systems were allowed to acknowledge effort, fatigue, and uncertainty?
-              </p>
-
-              <div class="callout">
-                <p>
-                  <strong>Short Reflection:</strong> Working on this project shifted how I think about failure in my own
-                  practice. Instead of
-                  seeing errors as interruptions, I began to see them as emotional records—quiet evidence of persistence
-                  inside technical systems.
-                  Keeping the design visually quiet allowed the language to carry the emotional weight. The system does
-                  not apologize or resolve
-                  itself. It simply admits that it is trying.
-                </p>
-              </div>
-
-              <h4>Toward Edition 02</h4>
-              <p><em>debug.log</em> feels like the first artifact in a longer publishing practice connected to my
-                thesis.</p>
-              <p>A future Edition 02 could expand the work by:</p>
-              <ul>
-                <li>collecting errors over a longer period of time, allowing emotional patterns to emerge</li>
-                <li>incorporating hardware and environmental failures, such as sensor noise or unstable power</li>
-                <li>introducing material degradation—fading ink, paper variation, disrupted formatting—as another layer
-                  of system "state"</li>
-                <li>allowing the log to subtly change between printings, reflecting instability over time</li>
-              </ul>
-
-              <p>
-                Rather than escalating in scale, the next edition would deepen the archive—continuing to document
-                systems not at their most
-                powerful, but at their most human level.
-              </p>
-
-              <div class="link-grid">
-                <a class="link-btn" href="assets/pub-b/debug_log.pdf" target="_blank" rel="noopener">pdf</a>
-                <a class="link-btn" href="https://editor.p5js.org/electrocute/sketches/D9yrAFQHW" target="_blank"
-                  rel="noopener">p5 layout system</a>
-              </div>
-            </div>
-          </div>
-        </article>
+    <footer class="footer">
+      <div class="container">
+        © <span id="year">2025</span> crafted with care by
+        <a href="https://yafira.xyz/" target="_blank" rel="noopener">yafira</a>
       </div>
-    </section>
-  </main>
+    </footer>
 
-<footer class="footer">
-  <div class="container">
-    © <span id="year">2025</span> crafted with care by <a href="https://yafira.xyz/" target="_blank" rel="noopener">yafira</a>
-    
-  </div>
-</footer> 
-
-  <script src="script.js"></script>
-</body>
-
+    <script src="script.js"></script>
+  </body>
 </html>
