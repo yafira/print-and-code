@@ -1,4 +1,3 @@
-// script.js
 // print + code site helpers
 
 (function () {
